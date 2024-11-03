@@ -96,4 +96,3 @@ Here’s a sample format for a JSON tweet entry:
 - Load data: `python load-json.py tweets.json 27017`
 - Run program: `python program.py 27017`
 
-
