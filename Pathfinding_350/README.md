@@ -2,6 +2,14 @@
 
 This project implements a **Grid-based pathfinding and connectivity system** using C++ and OpenGL, designed for **CMPUT 350**. It supports **A* pathfinding** on a tile-based map with **octile topology** (8 compass directions) and includes efficient connectivity checks using flood fill and caching. This system could be used for simulations, games, or any application needing efficient movement and connectivity operations on a grid.
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Files Overview](#files_overview)
+
+
 ## Features
 
 - **Grid Class**: Represents a rectangular map with octile topology, with support for `GROUND`, `WATER`, and `BLOCKED` tiles.
