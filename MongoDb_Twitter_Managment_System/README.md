@@ -96,12 +96,4 @@ Here’s a sample format for a JSON tweet entry:
 - Load data: `python load-json.py tweets.json 27017`
 - Run program: `python program.py 27017`
 
-## Notes
 
-- The JSON file should follow the format of the `tweets` collection.
-- MongoDB needs to be running locally on the specified port.
-- MongoDB data is persistent, meaning tweets will remain in the database even after exiting the application.
-
----
-
-This README.md provides a guide to set up, run, and use the MongoDB Twitter Management System.
