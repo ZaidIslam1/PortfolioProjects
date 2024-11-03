@@ -33,8 +33,9 @@ pip install requests requests_cache
 
 - Clone the repository:
   ```bash
-  git clone https://github.com/YourUsername/TV-Show-Finder.git
-  cd TV-Show-Finder
+  git clone https://github.com/ZaidIslam1/PortfolioProjects.git
+  cd PortfolioProjects/Tv_Show_Info_Finder
+
   ```
 
 ## Usage
