@@ -14,8 +14,8 @@ This project implements a **Grid-based pathfinding and connectivity system** usi
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/grid-pathfinding-connectivity.git
-    cd grid-pathfinding-connectivity
+    git clone https://github.com/ZaidIslam1/PortfolioProjects.git
+    cd PortfolioProjects/Pathfinding_350
     ```
 
 2. **Compile**:
