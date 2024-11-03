@@ -35,13 +35,13 @@ This project provides a command-line application for managing and interacting wi
   ```bash
   git clone https://github.com/ZaidIslam1/PortfolioProjects.git
   cd PortfolioProjects/MongoDb_Twitter_Managment_System
-
-
-3. Install the required Python package:
+  ```
+  
+2. Install the required Python package:
    ```bash
    pip install pymongo
    ```
-4. Ensure MongoDB is running on your system. If not installed, download and run it as instructed in the MongoDB documentation.
+3. Ensure MongoDB is running on your system. If not installed, download and run it as instructed in the MongoDB documentation.
 
 ## Usage
 
