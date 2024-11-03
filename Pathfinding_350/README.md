@@ -1,49 +1,47 @@
-Grid Pathfinding and Connectivity Project
-This project implements a Grid-based pathfinding and connectivity system using C++ and OpenGL, designed for CMPUT 350. It supports A pathfinding* on a tile-based map with octile topology (8 compass directions) and includes efficient connectivity checks using flood fill and caching.
+# Grid Pathfinding and Connectivity Project
 
-Table of Contents
-Features
-Installation
-Usage
-Files Overview
-Assignment Context
-Features
-Grid Class: Represents a rectangular map with octile topology, supporting GROUND, WATER, and BLOCKED tiles.
-Pathfinding: Uses the A* algorithm to find the shortest path with both cardinal and diagonal movement.
-Connectivity Check: Determines if two locations are connected on the grid, using flood fill and caching for efficiency.
-Object Support: Enables pathfinding and connectivity checks for moving objects of various sizes (1x1, 2x2, and 3x3 tiles).
-OpenGL Testing Interface: Provides a visual interface to interactively explore the grid, pathfinding, and connectivity using mouse controls.
-Installation
-Clone the Repository:
+This project implements a **Grid-based pathfinding and connectivity system** using C++ and OpenGL, designed for **CMPUT 350**. It supports **A* pathfinding** on a tile-based map with **octile topology** (8 compass directions) and includes efficient connectivity checks using flood fill and caching. This system could be used for simulations, games, or any application needing efficient movement and connectivity operations on a grid.
 
-bash
-Copy code
-git clone https://github.com/ZaidIslam1/PortfolioProjects.git
-cd PortfolioProjects/Pathfinding_350
-Compile the Program:
+## Features
 
-bash
-Copy code
-make
-Run the Program:
+- **Grid Class**: Represents a rectangular map with octile topology, with support for `GROUND`, `WATER`, and `BLOCKED` tiles.
+- **Pathfinding**: Uses the A* algorithm to find the shortest path, with cardinal and diagonal movement costs.
+- **Connectivity Check**: Determines if two locations are connected on the grid, using flood fill and caching for efficiency.
+- **Object Support**: Allows pathfinding and connectivity checks for moving objects of different sizes (1x1, 2x2, and 3x3 tiles).
+- **OpenGL Testing Interface**: Visualizes pathfinding and connectivity operations, with interactive mouse controls for exploring the grid.
 
-bash
-Copy code
-./testGrid
-Usage
-Mouse Controls:
+## Installation
 
-Left-click: Set start and end points for pathfinding.
-Right-click: Highlight connected areas for the selected tile type.
-Middle-click: Cycle through object sizes (1x1, 2x2, 3x3).
-Keyboard Controls:
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/ZaidIslam1/PortfolioProjects.git
+    cd PortfolioProjects/Pathfinding_350
+    ```
 
-Press any key to exit the program.
-Files Overview
-Grid.cpp / Grid.h: Core grid functionality, including pathfinding and connectivity methods.
-GridPriv.h / GridInclude.h: Helper files defining private data and methods for the Grid class.
-TestGrid.cpp: A testing setup to validate pathfinding and connectivity operations with OpenGL visualization.
-README.txt: Additional project details and instructions.
-Makefile: Instructions for compiling the project.
-Assignment Context
-This project was developed as part of the CMPUT 350 course, focusing on creating a grid-based pathfinding and connectivity system with practical applications in simulations, games, and hierarchical pathfinding. The implementation also explores PRA* abstraction methods to improve pathfinding efficiency on larger maps.
+2. **Compile**:
+    ```bash
+    make
+    ```
+
+3. **Run**:
+    ```bash
+    ./testGrid
+    ```
+
+## Usage
+
+- **Left-click**: Set start and end points for pathfinding.
+- **Right-click**: Show connected component.
+- **Middle-click**: Cycle through object sizes (1x1, 2x2, 3x3).
+- **Keypress**: Exit program.
+
+## Files Overview
+
+- **Grid.h** / **Grid.cpp**: Core grid functionality, including pathfinding and connectivity.
+- **GridPriv.h** / **GridInclude.h**: Helper files defining private data and methods for the Grid class.
+- **TestGrid.cpp**: Testing setup for pathfinding and connectivity.
+- **Makefile**: Compilation instructions.
+
+## Assignment Context
+
+This project is part of an assignment for CMPUT 350, focusing on implementing and testing a grid-based pathfinding and connectivity system, alongside exploring **PRA\*** map abstraction for hierarchical pathfinding.
