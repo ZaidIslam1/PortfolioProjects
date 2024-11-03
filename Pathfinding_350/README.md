@@ -7,7 +7,7 @@ This project implements a **Grid-based pathfinding and connectivity system** usi
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Files Overview](#filesoverview)
+- [Files Overview](#files-overview)
 
 
 ## Features
