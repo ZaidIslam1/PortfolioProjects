@@ -46,7 +46,3 @@ This project implements a **Grid-based pathfinding and connectivity system** usi
 
 This project is part of an assignment for CMPUT 350, focusing on implementing and testing a grid-based pathfinding and connectivity system, alongside exploring **PRA\*** map abstraction for hierarchical pathfinding.
 
-## License
-
-[Specify your license here, e.g., MIT License]
-
