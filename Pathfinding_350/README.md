@@ -35,7 +35,10 @@ This project implements a **Grid-based pathfinding and connectivity system** usi
     ```bash
     ./testGrid
     ```
-
+4. **Remove**
+    ```bash
+    make clean
+    ```
 ## Usage
 
 - **Left-click**: Set start and end points for pathfinding.
