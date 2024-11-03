@@ -43,7 +43,7 @@ pip install requests requests_cache
 Run the script using:
 
 ```bash
-python tv_show_finder.py
+python shows4.py
 ```
 
 ### Example Workflow
