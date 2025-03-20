@@ -2,13 +2,6 @@
 
 This project implements a **real-time hand tracking system** using **Python, OpenCV, and MediaPipe** to detect hand gestures and control system volume. It allows users to adjust their system volume by moving their fingers in front of the camera. This is a practical example of computer vision and human-computer interaction.
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Files Overview](#files-overview)
-
 ## Features
 
 - **Hand Tracking**: Uses **MediaPipe** to detect hand landmarks in real-time.
