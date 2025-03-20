@@ -27,7 +27,7 @@ This project implements a **real-time hand tracking system** using **Python, Ope
 
 - **Move Index and Thumb**: Adjusts system volume based on their distance.
 - **Hand Visualization**: The interface highlights finger positions and volume bar changes.
-- **Press 'q'**: Exits the application.
+- **Press 'ctrl+c'**: Exits the application.
 
 ## Files Overview
 
