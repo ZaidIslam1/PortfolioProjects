@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Store awning -->
+  <path d="M4 20 H60 L56 12 H8 L4 20 Z" fill="#FF6F61" stroke="#E04E39" stroke-width="2"></path>
+  <!-- Store roof -->
+  <rect x="8" y="20" width="48" height="6" fill="#F9AFAE" stroke="#E04E39" stroke-width="2"></rect>
+  <!-- Store front -->
+  <rect x="14" y="26" width="36" height="30" fill="#FFD9D6" stroke="#E04E39" stroke-width="2"></rect>
+  <!-- Door -->
+  <rect x="28" y="40" width="8" height="16" fill="#E04E39"></rect>
+  <!-- Door knob -->
+  <circle cx="34" cy="48" r="1.5" fill="#FFD9D6"></circle>
+</svg>
